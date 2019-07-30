@@ -1,0 +1,3 @@
+git log						-> shows the commit history with messages
+
+git diff commit-number-A commit-number-B 	-> shows the difference between the two commits  
