@@ -1,2 +1,2 @@
 hello
-This will a conflict
+The conflict is resolved
