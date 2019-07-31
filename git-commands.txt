@@ -1,3 +1,24 @@
 git log						-> shows the commit history with messages
 
 git diff commit-number-A commit-number-B 	-> shows the difference between the two commits  
+
+git diff					-> difference between working directory and staging area
+
+git diff --staged				-> diff between staged and recently commited
+
+git checkout commit-number			-> reverts the local files to this particular commit (log starts from this particular
+						   commit so dont forget to revert back to master if you need the older log)
+
+git init					-> initializes the current folder as a git repo
+
+git status					-> shows which files have changed since last commit
+
+git add	<file>					-> adds the particular files for staging
+
+git reset <file>				-> if you accidently add files then this clears the staging area
+
+git rm --cached <file>				-> to unstage a particular file
+
+https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x difference between reset and rm
+
+git commit -m "commit message"			-> commits the added changes
