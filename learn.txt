@@ -1,9 +1,2 @@
 hello
-this is line 2
-all is fucked in this galaxy so far
-i am gay
-rushi is fucked
-this is the first change
-
-ola
-this is third commit
+just made a new brach
