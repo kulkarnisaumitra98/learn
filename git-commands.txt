@@ -24,3 +24,4 @@ https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x 
 git commit -m "commit message"			-> commits the added changes
 
 git checkout -b <branch-name>			-> created a new branch and check it out
+
