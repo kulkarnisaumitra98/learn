@@ -1,12 +1,14 @@
 git log						-> shows the commit history with messages
 
-git diff commit-number-A commit-number-B 	-> shows the difference between the two commits  
+git log --graph --oneline			-> shows graph of commits
+
+git diff <commit-number-A> <commit-number-B> 	-> shows the difference between the two commits  
 
 git diff					-> difference between working directory and staging area
 
 git diff --staged				-> diff between staged and recently commited
 
-git show <comm
+git show <commit-number>			-> shows difference between itself and its parent
 
 git checkout commit-number			-> reverts the local files to this particular commit (log starts from this particular
 						   commit so dont forget to revert back to master if you need the older log)
