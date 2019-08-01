@@ -25,7 +25,8 @@ git reset <file>				-> if you accidently add files then this clears the staging 
 
 git rm --cached <file>				-> to unstage a particular file
 
-https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x difference between reset and rm
+difference between reset and rm
+-> https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x 
 
 git commit -m "commit message"			-> commits the added changes
 
@@ -34,4 +35,17 @@ git branch 					-> shows current active branch
 git checkout -b <branch-name>			-> created a new branch and check it out
 
 git merge <branch1> <branch2>			-> merges branch1 into branch2
+
+git push origin <branch-name>			-> push to remote origin your branch your latest commit and orgin/master will also update
+
+git pull origin <branch-name>			-> pull the changes on github to remote branch (if conflict will haveto resolve)
+
+git fetch 					-> fetches changes on github and updates the origin/master and diverges from it if 
+						   different changes on github and local
+
+git merge master origin/master 			-> merges the remote branch and local master branch if diverged
+
+git pull origin master = git fetch + git merge master origin/master
+
+
 
