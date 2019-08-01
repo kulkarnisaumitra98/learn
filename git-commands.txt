@@ -11,6 +11,8 @@ git checkout commit-number			-> reverts the local files to this particular commi
 
 git init					-> initializes the current folder as a git repo
 
+git remote add origin <github@repo>		-> adds remote to local files , now we can push to github
+
 git status					-> shows which files have changed since last commit
 
 git add	<file>					-> adds the particular files for staging
