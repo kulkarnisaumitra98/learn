@@ -6,6 +6,8 @@ git diff					-> difference between working directory and staging area
 
 git diff --staged				-> diff between staged and recently commited
 
+git show <comm
+
 git checkout commit-number			-> reverts the local files to this particular commit (log starts from this particular
 						   commit so dont forget to revert back to master if you need the older log)
 
@@ -24,6 +26,8 @@ git rm --cached <file>				-> to unstage a particular file
 https://stackoverflow.com/questions/5798930/git-rm-cached-x-vs-git-reset-head-x difference between reset and rm
 
 git commit -m "commit message"			-> commits the added changes
+
+git branch 					-> shows current active branch
 
 git checkout -b <branch-name>			-> created a new branch and check it out
 
