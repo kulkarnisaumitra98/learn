@@ -32,3 +32,4 @@ git branch 					-> shows current active branch
 git checkout -b <branch-name>			-> created a new branch and check it out
 
 git merge <branch1> <branch2>			-> merges branch1 into branch2
+
