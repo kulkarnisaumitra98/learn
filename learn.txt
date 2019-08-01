@@ -1,2 +1,0 @@
-hello
-The conflict is resolved
